@@ -14,6 +14,7 @@ public class Hashing {
         System.out.println(precompute(arr,target));
         System.out.println(findCharacter(s,c));
         System.out.println(mapMethod(arr,target));
+        sc.close();
     }
 
     public static int bruteForce(int[] arr, int target)

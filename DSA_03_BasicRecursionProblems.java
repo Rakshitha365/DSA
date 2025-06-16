@@ -21,6 +21,7 @@ public class DSA_03_BasicRecursionProblems {
         reverseArray(arr, 0, n-1);
         System.out.println(checkPalindrome(name, 0, name.length()-1));
         System.out.println(fib(n));
+        sc.close();
     }
 
     public static void printNameNTimes(int n, String name)
